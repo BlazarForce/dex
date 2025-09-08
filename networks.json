@@ -18,6 +18,25 @@
       "symbol": "WETH"
     }
   },
+  "71111": {
+    "name": "Guapcoin X Chain",
+    "rpc": "https://rpc-mainnet.guapcoinx.com",
+    "chainId": 71111,
+    "explorer": "https://explorer.guapcoinx.com/",
+    "color": "#072D4C",
+    "storage": "0xd4a711333C41cC01B005dBE5389BcFb99D4f5d64",
+    "multicall": "0xd152CD6F9cf76921759d3f51f743651e549f6925",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "GUAPX",
+      "symbol": "GUAPX"
+    },
+    "wrappedToken": {
+      "address": "0xb9b990517e07A07d18A753DE6b539F950F1B24a5",
+      "name": "Wrapped GUAPX",
+      "symbol": "WGUAPX"
+    }
+  },
   "25": {
     "name": "Cronos",
     "rpc": "https://evm.cronos.org",
@@ -56,7 +75,7 @@
   },
   "56": {
     "name": "BSC",
-    "rpc": "https://bscrpc.com/",
+    "rpc": "https://rpc.ankr.com/bsc/afbbed6c16c518a252ca00b02d488e4ce457fb930b5f2aff5437a3a5191fb731",
     "chainId": 56,
     "explorer": "https://bscscan.com",
     "color": "#CC9B00",
@@ -550,6 +569,118 @@
       "address": "0x5300000000000000000000000000000000000004",
       "name": "Wrapped ETH",
       "symbol": "WETH"
+    }
+  },
+  "35441": {
+    "name": "Q Mainnet",
+    "rpc": "https://rpc.q.org",
+    "chainId": 35441	,
+    "explorer": "https://explorer.q.org",
+    "color": "#CC9B00",
+    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "storage": "0x2f87D23cd8d788bC9a32E540cdd8253F9b1F54CF",
+    "exstorage": "0xd4a711333C41cC01B005dBE5389BcFb99D4f5d64",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "Q",
+      "symbol": "Q"
+    },
+    "wrappedToken": {
+      "address": "0xd07178e3eCbC78De110Df84fe1A979D5f349784a",
+      "name": "Wrapped Q",
+      "symbol": "WQ"
+    }
+  },
+  "35443": {
+    "name": "Q Testnet",
+    "rpc": "https://rpc.qtestnet.org",
+    "chainId": 35443	,
+    "explorer": "https://explorer.qtestnet.org",
+    "color": "#CC9B00",
+    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "storage": "0xd152CD6F9cf76921759d3f51f743651e549f6925",
+    "exstorage": "0x2f87D23cd8d788bC9a32E540cdd8253F9b1F54CF",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "Q",
+      "symbol": "Q"
+    },
+    "wrappedToken": {
+      "address": "0x76F4f36CE4f1550D95BAd917ef05520Eca310685",
+      "name": "Wrapped Q",
+      "symbol": "WQ"
+    }
+  },
+  "81457": {
+    "name": "Blast",
+    "rpc": "https://rpc.blast.io",
+    "chainId": 81457,
+    "explorer": "https://blastscan.io/",
+    "color": "#FCFC03",
+    "multicall": "0xEF65BF9e225A4B606aa5C46f944De35f566e58e4",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "ETH",
+      "symbol": "ETH"
+    },
+    "wrappedToken": {
+      "address": "0x4300000000000000000000000000000000000004",
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "168587773": {
+    "name": "Blast Sepolia",
+    "rpc": "https://sepolia.blast.io",
+    "chainId": 168587773,
+    "explorer": "https://testnet.blastscan.io",
+    "color": "#FCFC03",
+    "multicall": "0xC397E78Ff03cf0c85389A51a4996bAd772B9066E",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "ETH",
+      "symbol": "ETH"
+    },
+    "wrappedToken": {
+      "address": "0x4200000000000000000000000000000000000023",
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "1116": {
+    "name": "Core",
+    "rpc": "https://rpc.coredao.org",
+    "chainId": 1116,
+    "explorer": "https://scan.coredao.org",
+    "color": "#FF9211",
+    "multicall": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "CORE",
+      "symbol": "CORE"
+    },
+    "wrappedToken": {
+      "address": "0x191E94fa59739e188dcE837F7f6978d84727AD01",
+      "name": "Wrapped CORE",
+      "symbol": "WCORE"
+    }
+  },
+  "2078": {
+    "name": "Parodychain",
+    "rpc": "https://fraa-flashbox-4392-rpc.a.stagenet.tanssi.network",
+    "chainId": 2078,
+    "explorer": "https://parodyscan.xyz",
+    "color": "#FF9211",
+    "multicall": "0x609310f1014A6f3A26243C26B3027C86B7f5776f",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "PDY",
+      "symbol": "PDY"
+    },
+    "wrappedToken": {
+      "address": "0x816e6e9A48d2a88971debbcbbB80E50850e123f1",
+      "name": "Wrapped PDY",
+      "symbol": "WPDY"
     }
   }
 }
